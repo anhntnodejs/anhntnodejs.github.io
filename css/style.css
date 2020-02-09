@@ -888,9 +888,6 @@ ul li {
     height: 100%;
     margin: 0 auto;
   }
-  .content.mobile.nan_organic .section__row.section-7 .main .flex-wrap .img-wrap {
-    display: flex;
-  }
   .content.mobile.nan_organic .section__row.section-8 {
     margin-top: calc(100vw * 105.03 / 763.2);
   }
