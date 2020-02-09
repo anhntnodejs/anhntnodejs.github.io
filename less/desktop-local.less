@@ -1,0 +1,469 @@
+.content {
+    &.desktop {
+        display: block;
+
+        &.nan_organic {
+            width   : 1366px;
+            margin  : 0 auto;
+            position: relative;
+
+            .row {
+                .section__row {
+                    position: relative;
+
+
+                    .heading {
+                        h2 {
+                            letter-spacing: 3px;
+                        }
+
+                        &.title-deco-1 {
+                            width   : 1157px;
+                            position: absolute;
+                            .center-horizontal-abs;
+
+                            h2 {
+                                font-family: 'iCielVAGRoundedNext-Medium', sans-serif;
+                                color      : #3dae2b;
+                                font-size  : 36pt;
+                                width      : 100%;
+                                position   : relative;
+                                text-align : center;
+
+                                &:before {
+                                    content         : '';
+                                    width           : 165px;
+                                    height          : 42px;
+                                    bottom          : 10px;
+                                    left            : 0;
+                                    display         : block;
+                                    position        : absolute;
+                                    background-image: url('./images/title-deco-left.png');
+                                }
+
+                                &:after {
+                                    content         : '';
+                                    bottom          : 10px;
+                                    width           : 165px;
+                                    height          : 42px;
+                                    right           : 0;
+                                    display         : block;
+                                    position        : absolute;
+                                    background-image: url('./images/title-deco-right.png');
+                                }
+                            }
+                        }
+
+                        &.title-deco-2 {
+                            width              : 966px;
+                            height             : 153px;
+                            background-image   : url('./images/title-deco-2-left.png'), url('./images/title-deco-right.png');
+                            background-repeat  : no-repeat;
+                            background-position: left 50%, right 40%;
+                            margin             : 0 auto;
+                            position           : relative;
+
+                            h2 {
+                                font-family: 'iCielVAGRoundedNext-Medium', sans-serif;
+                                color      : #3dae2b;
+                                font-size  : 36pt;
+                                text-align : center;
+                                width      : 570px;
+                                .center-abs;
+                                left: 52%;
+
+                                strong {
+                                    font-family: 'iCielVAGRoundedNext-Bold', sans-serif;
+                                }
+                            }
+
+                            &.two-line {
+                                h2 {
+                                    top: 70%;
+                                }
+
+                                &.set-font {
+                                    h2 {
+                                        top        : 40%;
+                                        font-size  : 36pt;
+                                        line-height: 1.2;
+
+                                        strong {
+                                            font-family: 'iCielVAGRoundedNext-Medium', sans-serif;
+                                            font-size  : 24pt;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        &.title-deco-3 {
+                            h2 {
+                                text-align: center;
+                            }
+                        }
+
+                        &.title-deco-4 {
+                            width              : 1065px;
+                            height             : 94px;
+                            background-image   : url('./images/Line.png'), url('./images/Line.png');
+                            background-repeat  : no-repeat;
+                            background-position: left top, left bottom;
+                            margin             : 0 auto;
+                            position           : relative;
+
+                            h2 {
+                                text-align : center;
+                                font-family: 'iCielVAGRoundedNext-Medium', sans-serif;
+                                font-size  : 30pt;
+                                color      : #3dae2b;
+                                width      : 100%;
+                                .center-abs;
+                            }
+                        }
+                    }
+
+                    .img-wrap {
+                        &.full {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+            .section__row {
+                &.section-1 {
+                    .main__section {
+                        background-image : url('./images/BG.png');
+                        background-repeat: no-repeat;
+                        background-size  : 100%;
+                        height           : 840px;
+                        position         : relative;
+
+                        .main__item {
+                            .center-abs;
+                            top      : unset;
+                            bottom   : 0;
+                            transform: translate(-50%, 0);
+
+                            .title {
+                                width        : 591px;
+                                margin       : 0 auto;
+                                margin-bottom: 40px;
+
+                                img {
+                                    .img-wrap;
+                                }
+                            }
+
+                            .list {
+                                display: flex;
+
+                                li {
+                                    width   : 162px;
+                                    margin  : 0 54px;
+                                    display : inline-block;
+                                    position: relative;
+
+                                    &:first-child {
+                                        margin-left     : 0;
+                                        background-image: none;
+                                    }
+
+                                    a,
+                                    .item__list {
+                                        display : block;
+                                        position: relative;
+
+
+                                        img {
+                                            width        : 125px;
+                                            margin       : 0 auto;
+                                            display      : block;
+                                            margin-bottom: 20px;
+                                        }
+
+                                        p {
+                                            font-family  : 'VIE-AvantGarde', Fallback, sans-serif;
+                                            font-size    : 12pt;
+                                            font-weight  : bold;
+                                            color        : #3dae2b;
+                                            text-align   : center;
+                                            margin-bottom: 0;
+                                        }
+
+                                    }
+
+                                    .border-right {
+                                        .abs;
+                                        top : 0;
+                                        left: -51px;
+                                    }
+
+                                }
+                            }
+
+                            .summary {
+                                font-size    : 9pt;
+                                font-family  : 'VIE-AvantGarde', Fallback, sans-serif;
+                                margin-top   : 26px;
+                                text-align   : center;
+                                color        : #016a37;
+                                margin-bottom: 0;
+                            }
+                        }
+
+                    }
+
+                    .logo {
+                        width  : 166px;
+                        display: block;
+                        top    : 48px;
+                        left   : 150px;
+                        .abs;
+                        z-index: 1;
+                    }
+
+                    .landing__section {
+                        width          : 1047px;
+                        height         : 441px;
+                        margin         : 0 auto;
+                        position       : relative;
+                        justify-content: space-between;
+                        align-items    : center;
+
+                        &.landing {
+                            .item__landing {
+                                &.left {
+                                    display    : flex;
+                                    width      : 444px;
+                                    height     : 103px;
+                                    position   : relative;
+                                    margin-left: calc(42px + 18px);
+
+                                    p {
+                                        width      : 100%;
+                                        font-family: 'VIE-AvantGarde', serif;
+                                        font-size  : 22pt;
+                                        color      : #6d6e71;
+
+
+                                        &:before {
+                                            content         : '';
+                                            width           : 42px;
+                                            height          : 36px;
+                                            top             : -8px;
+                                            left            : calc(-42px - 18px);
+                                            display         : block;
+                                            position        : absolute;
+                                            background-image: url('./images/quote1.png');
+                                        }
+
+                                        &:after {
+                                            content         : '';
+                                            bottom          : -15px;
+                                            width           : 42px;
+                                            height          : 36px;
+                                            right           : calc(-30px - 15px);
+                                            display         : block;
+                                            position        : absolute;
+                                            background-image: url('./images/quote2.png');
+                                        }
+                                    }
+                                }
+
+                                &.right {
+                                    display : flex;
+                                    width   : 455px;
+                                    position: relative;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &.section-2 {
+                    .main {
+
+                        p {
+                            font-family  : 'VIE-AvantGarde', serif;
+                            font-size    : 17pt;
+                            text-align   : center;
+                            width        : 687px;
+                            margin       : 0 auto;
+                            margin-bottom: 20px;
+                        }
+                    }
+
+
+                    .img-wrap {
+                        text-align: center;
+                        width     : 630px;
+                        margin    : 0 auto;
+                    }
+
+                }
+
+                &.section-3 {
+                    .article-wrapper {
+                        background-image: url('./images/3giotsuabo.png');
+                        width           : 922px;
+                        min-height      : 1494px;
+                        margin          : 0 auto;
+
+                        .article {
+                            display         : flex;
+                            align-items     : center;
+                            background-color: transparent;
+                            margin-top      : 0;
+                            margin-bottom   : 0;
+                            z-index         : 0;
+                            border-bottom   : none;
+                            box-sizing      : border-box;
+
+                            &.article-reverse {
+                                flex-direction: row-reverse;
+                            }
+
+                            .item__article {
+                                width: calc(922px / 2);
+
+                                &.right {
+                                    display        : flex;
+                                    align-items    : center;
+                                    justify-content: center;
+                                    height         : 500px;
+                                    flex-direction : column;
+                                    position       : relative;
+
+                                    h3 {
+                                        margin-top : 20px;
+                                        font-family: 'Quicksand', sans-serif;
+                                        font-weight: 600;
+                                        color      : #bf9e38;
+                                        font-size  : 22pt;
+                                        text-align : center;
+                                    }
+
+                                    p {
+                                        width      : 317px;
+                                        font-family: 'Quicksand', sans-serif;
+                                        font-weight: 400;
+                                        color      : #bf9e38;
+                                        font-size  : 17pt;
+                                        text-align : center;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &.section-4 {
+                    .main {
+                        background-image : url('./images/Group8.png');
+                        background-repeat: no-repeat;
+                        height           : 2200px;
+                    }
+                }
+
+                &.section-5 {
+                    .heading {
+                        &.title-deco-1 {
+
+                            h2 {
+
+                                &:before {
+                                    bottom: 45px;
+                                    left  : 110px;
+                                }
+
+                                &:after {
+                                    bottom: 45px;
+                                    right : 110px;
+                                }
+                            }
+                        }
+
+                        h3 {
+                            margin-top : 20px;
+                            font-family: 'VIE-AvantGarde', serif;
+                            font-size  : 22pt;
+                            color      : #3dae2b;
+                            text-align : center;
+
+                            strong {
+                                font-family: 'VIE-AvantGardeBold', serif;
+                                font-size  : 28pt;
+                            }
+                        }
+
+                        h4 {
+                            margin-top : 10px;
+                            text-align : center;
+                            font-family: 'VIE-AvantGarde', serif;
+                            font-size  : 14pt;
+                            color      : #58595b;
+                        }
+                    }
+
+                    .main {
+                        background-image : url('./images/Group9.png');
+                        background-repeat: no-repeat;
+                        height           : 990px;
+                    }
+                }
+
+                &.section-6 {
+                    .main {
+                        .img-wrap {
+                            width : 545px;
+                            margin: 0 auto;
+                        }
+                    }
+                }
+
+                &.section-8 {
+                    .main {
+                        .img-wrap {
+                            width  : 812px;
+                            margin : 0 auto;
+                            padding: 50px 0;
+                        }
+                    }
+                }
+
+                &.section-9 {
+                    .main {
+                        height             : 945px;
+                        background-image   : url('./images/stock-photo-close-up-of-fresh-thick-grass-with-water-drops-189984224.png');
+                        background-position: bottom center;
+                        background-repeat  : no-repeat;
+                        display            : flex;
+                        flex-direction     : column;
+                        ;
+                        justify-content: space-between;
+                        align-items    : center;
+
+                        .img-wrap {
+                            width  : auto;
+                            display: flex;
+
+                            &.top {
+                                margin-top: 42px
+                            }
+
+                            &.bottom {
+                                margin-bottom: 50px
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.mobile {
+        display: none;
+    }
+}
