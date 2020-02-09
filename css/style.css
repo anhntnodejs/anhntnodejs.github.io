@@ -117,6 +117,8 @@ ul li {
 }
 .img-wrap {
   width: 100%;
+  display: flex;
+  align-items: stretch;
 }
 .img-wrap img {
   width: 100%;
@@ -264,6 +266,8 @@ ul li {
 }
 .content.desktop.nan_organic .section__row.section-1 .main__section .main__item .title img {
   width: 100%;
+  display: flex;
+  align-items: stretch;
 }
 .content.desktop.nan_organic .section__row.section-1 .main__section .main__item .title img img {
   width: 100%;
@@ -643,6 +647,8 @@ ul li {
   }
   .content.mobile.nan_organic .section__row.section-1 .main__section .main__item .title img {
     width: 100%;
+    display: flex;
+    align-items: stretch;
   }
   .content.mobile.nan_organic .section__row.section-1 .main__section .main__item .title img img {
     width: 100%;
